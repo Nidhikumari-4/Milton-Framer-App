@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="font-PlusJakartaSansMedium text-slate-500 my-5">
             <p>© My super start-up</p>
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 cursor-pointer">
             <img src={twitter} alt="" />
             <img src={facebook} alt="" />
             <img src={linkedin} alt="" />
@@ -65,7 +65,7 @@ const Footer = () => {
 
               {data.text?.map((data, index) => (
                 <div
-                  className="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px]"
+                  className="leading-5 font-PlusJakartaSansMedium my-2 px-5 text-slate-500 text-[16px] cursor-pointer hover:underline"
                   key={index}
                 >
                   {data}

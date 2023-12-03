@@ -19,7 +19,7 @@ const ReadyToStart = () => {
           </div>
           <div>
             <a href="#contact">
-              <button className="bg-black text-[#FEFEFE] rounded-lg py-4 px-8 font-bold text-[18px]">
+              <button className="bg-black text-[#FEFEFE] rounded-lg py-4 px-8 font-bold text-[18px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300">
                 <p>Get started, it's free</p>
               </button>
             </a>

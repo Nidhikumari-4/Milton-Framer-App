@@ -21,16 +21,16 @@ const Hero = () => {
         <div className="bg-[#F1F2F4] md:py-2 md:px-4 py-2 px-3 rounded-full font-PlusJakartaSansBold text-sm md:text-base ">
           An other way to manage time
         </div>
-        <div className="flex flex-none items-center justify-center text-center md:text-[4.6rem] text-[2.35rem] font-PlusJakartaSansExtraBold md:leading-[5rem] md:tracking-wider leading-[2.5rem] tracking-wider py-2 mx-6 my-4">
+        <div className="flex flex-none items-center justify-center text-center md:text-[5.4rem] text-[2.35rem] font-PlusJakartaSansExtraBold md:leading-[6rem] md:tracking-wide leading-[2.5rem] tracking-wider py-2 mx-6 my-4 md:px-8 md:-my-3">
           Your new favorite calendar 🗓️ app
         </div>
-        <div className="font-PlusJakartaSansMedium text-center md:leading-[2rem] md:text-[1.1rem] text-[1rem] md:py-10 md:px-40 text-slate-500 md:tracking-wider leading-6 px-8 my-4">
+        <div className="font-PlusJakartaSansMedium text-center md:leading-[2rem] md:text-[1.5rem] text-[1rem] md:py-10 md:px-36 text-slate-500 md:tracking-normal leading-6 px-8 my-4 ">
           Here you should explain how cool your app is. Remember,focus on the
           benefits for your users, not on the features.{" "}
         </div>
         <div>
           <a href="#contact">
-            <button className="bg-black text-[#FEFEFE] rounded-lg md:py-4 md:px-8 font-PlusJakartaSansMedium md:text-lg py-4 px-6">
+            <button className="bg-black text-[#FEFEFE] rounded-lg md:py-4 md:px-8 font-PlusJakartaSansMedium md:text-lg py-4 px-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300">
               <p>Get started, it's free</p>
             </button>
           </a>
@@ -73,7 +73,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center md:-mt-44">
         <img
           src={SuperPageImg}
           className="rounded-2xl border border-solid h-auto md:w-[73rem] border-gray-200 w-[20.6rem]"

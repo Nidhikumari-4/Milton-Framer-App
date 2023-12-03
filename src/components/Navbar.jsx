@@ -51,13 +51,13 @@ const Navbar = () => {
 
       <div className={`${showMenu ? "block" : "hidden"} flex gap-2 lg:flex`}>
         <a href="#login">
-          <button className="bg-slate-100 text-gray-600 rounded-xl py-2 px-5 font-PlusJakartaSansBold text-base">
+          <button className="bg-slate-100 text-gray-600 rounded-xl py-2 px-5 font-PlusJakartaSansBold text-base transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300">
             <p>Log in</p>
           </button>
         </a>
 
         <a href="#contact">
-          <button className="bg-black text-[#FEFEFE] rounded-xl py-2 px-5 font-PlusJakartaSansBold text-base">
+          <button className="bg-black text-[#FEFEFE] rounded-xl py-2 px-5 font-PlusJakartaSansBold text-base transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300">
             <p>Get started</p>
           </button>
         </a>

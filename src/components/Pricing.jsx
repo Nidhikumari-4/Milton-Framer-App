@@ -164,7 +164,7 @@ const Pricing = () => {
               <div className="flex flex-col justify-center items-center">
                 <div>
                   <a href="#contact">
-                    <button className="bg-black text-[#eeeeee] rounded-lg py-3 md:px-[6rem] px-8 ml-4 font-PlusJakartaSansBold text-lg">
+                    <button className="bg-black text-[#eeeeee] rounded-lg py-3 md:px-[6rem] px-8 ml-4 font-PlusJakartaSansBold text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300">
                       <p>{card.button}</p>
                     </button>
                   </a>

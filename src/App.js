@@ -7,6 +7,7 @@ import FeaturesCard from "./components/FeaturesCard";
 import ReadyToStart from "./components/ReadyToStart";
 import FAQs from "./components/FAQs";
 import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Features />
         <FeaturesCard />
         <Pricing />
+        <Testimonials />
         <FAQs />
         <ReadyToStart />
         <Footer />

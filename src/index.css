@@ -42,5 +42,5 @@
 }
 
 .animate-slide-left-to-right {
-  animation: slideLeftToRight 80s linear infinite;
+  animation: slideLeftToRight 50s linear infinite;
 }

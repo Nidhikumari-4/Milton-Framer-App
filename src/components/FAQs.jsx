@@ -33,7 +33,7 @@ const FAQs = () => {
 
   return (
     <div
-      className="flex flex-none flex-col h-[100hv] max-w-[1200px] mx-auto  py-[70px]"
+      className="flex flex-none flex-col h-auto max-w-[75rem] mx-auto  py-[70px]"
       id="faqs"
     >
       <div className="flex flex-none flex-col items-center justify-center  gap-4">
@@ -45,14 +45,14 @@ const FAQs = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-col items-center justify-center gap-4 p-8">
+      <div className="flex flex-col lg:flex-col items-center justify-center gap-4">
         {faqCards.map((data, index) => (
           <div className="flex flex-col items-start justify-start  bg-[#F1F2F4] p-6 w-4/5 rounded-2xl mt-8">
             <div
               className="flex items-center justify-between w-full cursor-pointer"
               onClick={() => toggleFAQ(index)}
             >
-              <div className="font-PlusJakartaSansBold text-[20px]">
+              <div className="font-PlusJakartaSansBold md:text-xl text-base">
                 {data.heading}
               </div>
               <div>{openFAQ === index ? <FaMinus /> : <FaPlus />}</div>

@@ -87,7 +87,7 @@ const Pricing = () => {
 
   return (
     <div
-      className="flex flex-none flex-col items-center justify-center md:px-58 md:max-w-[90rem] mx-auto max-w-[23.43rem] md:py-40 pt-36"
+      className="flex flex-none flex-col items-center justify-center md:px-58 md:max-w-[75rem] mx-auto max-w-[23.43rem]"
       id="pricing"
     >
       <div className="flex flex-none flex-col items-center justify-center  gap-4">
@@ -99,7 +99,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col justify-center items-center md:py-12 mt-16 py-1 ">
+      <div className="flex md:flex-row flex-col justify-center items-center md:py-12 mt-2 py-1 ">
         <div className="flex flex-row justify-evenly bg-[#F1F2F4] text-gray-400 rounded-xl font-PlusJakartaSansBold gap-5 text-sm py-1 w-72">
           <button
             className={
@@ -130,9 +130,9 @@ const Pricing = () => {
       <div className="md:flex flex-col lg:flex-row gap-4 md:gap-6 flex-wrap md:justify-between justify-center ">
         {updatedPricingCards.map((card, index) => (
           <>
-            <div className="flex flex-col md:flex-none md:w-96 items-start justify-start group pt-8 bg-white rounded-2xl w-[384px] h-auto px-8 relative py-4 md:my-0 my-10 md:mx-0 mx-10 border border-solid border-gray-200">
+            <div className="flex flex-col md:flex-none md:w-96 items-start justify-start group pt-8 bg-white rounded-2xl  h-auto px-8 relative py-4 md:my-0 my-10 md:mx-0 mx-10 ">
               {index === 1 ? (
-                <button className="bg-black text-[#eeeeee]  rounded-full py-[7px] px-4 font-PlusJakartaSansBold text-sm absolute left-56 -top-3 ">
+                <button className="hidden bg-black text-[#eeeeee]  rounded-full py-[7px] px-4 font-PlusJakartaSansBold text-sm absolute left-56 -top-3 ">
                   <p> Best deal 🔥</p>
                 </button>
               ) : (
@@ -164,7 +164,7 @@ const Pricing = () => {
               <div className="flex flex-col justify-center items-center">
                 <div>
                   <a href="#contact">
-                    <button className="bg-black text-[#eeeeee] rounded-lg py-3 px-[6rem] ml-4 font-PlusJakartaSansBold text-lg">
+                    <button className="bg-black text-[#eeeeee] rounded-lg py-3 md:px-[6rem] px-8 ml-4 font-PlusJakartaSansBold text-lg">
                       <p>{card.button}</p>
                     </button>
                   </a>

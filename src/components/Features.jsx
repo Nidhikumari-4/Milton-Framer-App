@@ -63,7 +63,7 @@ const Features = () => {
 
   return (
     <div
-      className="flex flex-none flex-col items-center justify-center md:px-60 md:max-w-[90rem] mx-auto max-w-[23.43rem] md:py-40 pt-36"
+      className="flex flex-none flex-col items-center justify-center md:max-w-[75rem] mx-auto max-w-[23.43rem] pt-28"
       id="features"
     >
       <div className="flex flex-none flex-col items-center justify-center gap-4">

@@ -11,11 +11,11 @@ const FeaturesSection = ({
 }) => {
   return (
     <div
-      className={`md:flex items-center justify-center md:my-20 md:gap-28 ${
+      className={`md:flex items-center justify-center md:my-12 ${
         index % 2 === 1 ? "flex-row-reverse" : "flex-row"
       }`}
     >
-      <div className="flex flex-col items-start justify-start h-auto md:w-[65.25rem] px-8 py-6 ">
+      <div className="flex flex-col items-start justify-start h-auto md:w-4/5 px-8 py-6 ">
         <div
           className={`py-2 px-[1.1rem] rounded-full font-PlusJakartaSansBold md:text-base text-[#2E2E2E] text-sm mb-6`}
           style={{ backgroundColor: `${chipBgColor}` }}
@@ -39,7 +39,7 @@ const FeaturesSection = ({
       <div className="overflow-visible ">
         <img
           src={bodyImgLarge}
-          className="object-center h-auto w-[37.5rem]] object-fill"
+          className="object-center h-auto object-fill flex-1"
           alt="Img"
         />
       </div>

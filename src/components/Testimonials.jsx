@@ -109,7 +109,7 @@ const Testimonials = () => {
 
   return (
     <div
-      className="flex flex-none flex-col items-center justify-center max-w-[75rem] mx-auto md:pt-36 pt-0"
+      className="hidden md:flex flex-none flex-col items-center justify-center max-w-[75rem] mx-auto md:pt-36 pt-0 "
       id="testimonials"
     >
       <div className="flex flex-none flex-col items-center justify-center">

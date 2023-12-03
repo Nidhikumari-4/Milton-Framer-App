@@ -31,3 +31,28 @@
     src: url("/public/Fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");
   }
 }
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide-left-to-right {
+  animation: slideLeftToRight 80s linear infinite;
+}

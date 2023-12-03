@@ -122,7 +122,9 @@ const Testimonials = () => {
       </div>
 
       {/* First set of cards */}
-      <div className="flex flex-row gap-8 justify-center mt-5">
+      <div
+        className={`flex flex-row gap-8 justify-center mt-5 animate-slide-left-to-right`}
+      >
         {firstSet.map((data, index) => (
           <div className="flex flex-col w-[32rem] flex-wrap justify-center bg-white rounded-2xl border border-solid border-gray-100 h-auto py-4 px-3">
             <div className="flex flex-row justify-between items-center">
@@ -154,7 +156,9 @@ const Testimonials = () => {
       </div>
 
       {/* Second set of cards */}
-      <div className="flex flex-row gap-8 justify-center mt-5">
+      <div
+        className={`flex flex-row gap-8 justify-center mt-5 animate-slide-left-to-right`}
+      >
         {secondSet.map((data, index) => (
           <div className="flex flex-col w-[32rem] flex-wrap justify-center bg-white rounded-2xl border border-solid border-gray-100 h-auto py-4 px-3">
             <div className="flex flex-row justify-between items-center">
@@ -186,7 +190,9 @@ const Testimonials = () => {
       </div>
 
       {/* Third set of cards */}
-      <div className="flex flex-row gap-8 justify-center mt-5">
+      <div
+        className={`flex flex-row gap-8 justify-center mt-5 animate-slide-left-to-right`}
+      >
         {thirdSet.map((data, index) => (
           <div className="flex flex-col w-[32rem] flex-wrap justify-center bg-white rounded-2xl border border-solid border-gray-100 h-auto py-4 px-3">
             <div className="flex flex-row justify-between items-center">
